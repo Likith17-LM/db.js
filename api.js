@@ -1,5 +1,9 @@
+console.log('🚀 Entered api.js')
 const express = require('express')
+console.log('📦 Loaded express')
 const Products = require('./products')
+console.log('📦 Loaded products.js')
+
 const router = express.Router()
 
 // Create a product
@@ -41,4 +45,3 @@ module.exports = {
   editProduct,
   deleteProduct
 }
-
